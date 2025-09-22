@@ -11,36 +11,33 @@ const daerahIndonesia = [
   {kota: "Jakarta", makananKhas: "Kerak Telor"}
 ];
 
+console.log("---------Daftar kota dan makanan khas di Indonesia---------");
+
+// Map
 const daftarMakanan = daerahIndonesia.map(item => `${item.kota} terkenal dengan ${item.makananKhas}`);
-console.log(daftarMakanan);
-console.log(" ");
+console.log("\nDaftar makanan khas di Indonesia:");
+console.table(daftarMakanan);
 
+// Filter
 const panjangNamaKota = daerahIndonesia.filter(item => item.kota.length > 6);
-console.log(panjangNamaKota);
-console.log(" ");
+console.log("\nDaftar kota dengan nama lebih dari 6 karakter:");
+console.table(panjangNamaKota);
 
+// Reduce
 const totalKarakterMakanan = daerahIndonesia.reduce((total, item) => total + item.makananKhas.length, 0);
-console.log("Total karakter semua nama makanan khas:", totalKarakterMakanan);
-console.log(" ");
+console.log("\nTotal karakter semua nama makanan khas:", totalKarakterMakanan);
 
+// Find
 const findMakanan = daerahIndonesia.find(item => item.makananKhas.startsWith('B'));
-console.log("Makanan khas pertama yang dimulai dengan huruf 'B':", findMakanan);
-console.log(" ");
+console.log("\nMakanan khas pertama yang dimulai dengan huruf 'B':", findMakanan);
+console.table(findMakanan);
 
+// Some
 const someKota = daerahIndonesia.some(item => item.kota.endsWith('a'));
-if (someKota) {
-  const kotaAkhirA = daerahIndonesia.filter(item => item.kota.endsWith('a'));
-  console.log("Ada kota yang berakhiran dengan 'a':", kotaAkhirA);
-} else {
-  console.log("Tidak ada kota yang berakhiran dengan 'a'");
-}
-console.log(" ");
+console.log("\nAda kota yang namanya diakhiri dengan huruf 'a':", someKota);
 
-const everyMakanan = daerahIndonesia.every(item => item.makananKhas.length >= 5);
-if (everyMakanan) {
-  console.log("Semua makanan khas memiliki panjang nama minimal 5 karakter.");
-  console.log("Daftar makanan khas:", daerahIndonesia.map(item => item.makananKhas));
-} else {
-  console.log("Ada makanan khas yang panjang namanya kurang dari 5 karakter.");
-}
+// Every
+const everyMakanan = daerahIndonesia.every(item => item.makananKhas.length >= 7);
+console.log("\nSemua makanan khas memiliki nama dengan panjang minimal 7 karakter:", everyMakanan);
+
 

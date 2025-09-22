@@ -15,12 +15,12 @@ Tujuan utama dari tugas ini adalah:
 
 ### 1. map()
 - **Tujuan**: Mengubah data array menjadi kalimat yang menjelaskan kota beserta makanan khasnya.  
-- **Screenshot**:  
-  <img width="566" height="389" alt="image" src="https://github.com/user-attachments/assets/8eb57293-ef8c-4cd0-ab4b-ccc3dcfae19d" />
+- **Screenshot**:
+- <img width="566" height="389" alt="image" src="https://github.com/user-attachments/assets/8eb57293-ef8c-4cd0-ab4b-ccc3dcfae19d" />
 
 ### 2. filter()
 - **Tujuan**: Menyaring kota yang memiliki panjang nama lebih dari 6 karakter.  
-- **Screenshot**:  
+- **Screenshot**:
   <img width="448" height="229" alt="image" src="https://github.com/user-attachments/assets/49b3237a-7b05-46bb-827b-7ef5b0cd727c" />
 
 ### 3. reduce()
@@ -35,7 +35,7 @@ Tujuan utama dari tugas ini adalah:
 
 ### 5. some()
 - **Tujuan**: Mengecek apakah ada kota yang berakhiran dengan huruf "a".   
-- **Screenshot**:  
+- **Screenshot**:
   <img width="498" height="44" alt="image" src="https://github.com/user-attachments/assets/1c4d219a-9791-4fd3-a381-b589a3445489" />
 
 ### 6. every()

@@ -21,27 +21,27 @@ Tujuan utama dari tugas ini adalah:
 ### 2. filter()
 - **Tujuan**: Menyaring kota yang memiliki panjang nama lebih dari 6 karakter.  
 - **Screenshot**:
-  <img width="448" height="229" alt="image" src="https://github.com/user-attachments/assets/49b3237a-7b05-46bb-827b-7ef5b0cd727c" />
+<img width="448" height="229" alt="image" src="https://github.com/user-attachments/assets/49b3237a-7b05-46bb-827b-7ef5b0cd727c" />
 
 ### 3. reduce()
 - **Tujuan**: Menghitung total jumlah karakter dari seluruh nama makanan khas yang ada di dalam array.  
 - **Screenshot**:
-  <img width="401" height="59" alt="image" src="https://github.com/user-attachments/assets/9e4214e0-0906-4bf4-a308-900fb5ae3999" />
+<img width="401" height="59" alt="image" src="https://github.com/user-attachments/assets/9e4214e0-0906-4bf4-a308-900fb5ae3999" />
  
 ### 4. find()
 - **Tujuan**: Menemukan makanan khas pertama yang diawali huruf "B".  
 - **Screenshot**:
-  <img width="887" height="163" alt="image" src="https://github.com/user-attachments/assets/78349c9f-ea9d-4b5b-948d-d68492da4939" />
+<img width="887" height="163" alt="image" src="https://github.com/user-attachments/assets/78349c9f-ea9d-4b5b-948d-d68492da4939" />
 
 ### 5. some()
 - **Tujuan**: Mengecek apakah ada kota yang berakhiran dengan huruf "a".   
 - **Screenshot**:
-  <img width="498" height="44" alt="image" src="https://github.com/user-attachments/assets/1c4d219a-9791-4fd3-a381-b589a3445489" />
+<img width="498" height="44" alt="image" src="https://github.com/user-attachments/assets/1c4d219a-9791-4fd3-a381-b589a3445489" />
 
 ### 6. every()
 - **Tujuan**: Mengecek apakah semua makanan khas memiliki panjang minimal 5 karakter.  
 - **Screenshot**:
-  <img width="666" height="23" alt="image" src="https://github.com/user-attachments/assets/5fa6d564-7ec8-412e-aa45-ac8828b58675" />
+<img width="666" height="23" alt="image" src="https://github.com/user-attachments/assets/5fa6d564-7ec8-412e-aa45-ac8828b58675" />
 
 ## Kesimpulan
 Dari implementasi enam metode array, dapat disimpulkan bahwa:  
